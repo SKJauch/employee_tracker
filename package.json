@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/SKJauch/employee_tracker#readme",
   "dependencies": {
+    "dotenv": "^16.3.1",
     "inquirer": "^8.2.4",
     "mysql2": "^3.3.5"
   }

@@ -1,15 +1,21 @@
-const mysql = require("mysql2")
+const mysql = require('mysql2');
+require("dotenv").config();
 
+// Connect to database
 const db = mysql.createConnection(
     {
-      host: 'localhost',
-      // MySQL username,
-      user: 'root',
-      // TODO: Add MySQL password here
-      password: 'P@ssw0rd',
-      database: 'employee_tracker_db'
+        host: 'localhost',
+        // Your MySQL username,
+        user: 'root',
+        // Your MySQL password
+        password: "P@ssw0rd21",
+        database: 'employee_tracker_db'
     },
-    console.log(`Connected to the movies_db database.`)
-  );
+   
+);
+
+db.on('error', (err) => {
+    console.log('- STATS Mysql2 connection died:', err);
+  });
   
-  module.exports=db
+module.exports = db;
