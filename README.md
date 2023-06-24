@@ -17,4 +17,8 @@ Stephanie Jauch and Meg Meyers.  Referenced Module 12, 02-Challenge and 28-Stu_M
 https://github.com/SKJauch/employee_tracker
 
 ##  Video 
+https://drive.google.com/file/d/1-QsddhBj2oRBB9zhV3G2ss-mpV5oVqx9/view
 
+## Screenshot
+
+[![Added Fields](12employeetracker.png)]
